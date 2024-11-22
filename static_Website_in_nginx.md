@@ -1,6 +1,42 @@
-# 1) Copy Static Website in /var/www/< Directory >
+# 1) Create a Directory for your Site in /var/www/< Directory >
 
-#### By default there is an html Directory present
+```bash
+sudo mkdir -p /var/www/<Directory Name>
+```
+
+## By default there is an html Directory present
+
+# 2) Copy Your Site to the Server Directory
+
+### Copy them directly if you're working on the server
+
+##### Copy an Entire Directory
+
+```bash
+cp -r /source/directory/path /destination/directory/path
+```
+
+#### Copy a Single File
+
+```bash
+cp /source/file/path /destination/file/path
+```
+
+# OR
+
+### Command to upload from local to server
+
+```bash
+scp -r /path/to/my_site username@your_server_ip:/var/www/my_site
+```
+
+`/path/to/my_site:` The absolute path to the directory on your local machine.
+
+`username:` The username you use to log in to the remote server.
+
+`your_server_ip:` The IP address of your server.
+
+`/var/www/my_site:` The path on the server where you want to copy the files.
 
 # 2) Go to /etc/nginx/sites-enabled
 
