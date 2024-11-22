@@ -1,19 +1,17 @@
 # Learn-Nginx
 
-# Install , start , stop , restart Nginx
+## Install , start , stop , restart Nginx
 
-<a href="https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/basic_ngnix.md"  > # Basic nginx services</a>
+[# Basic nginx services](https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/basic_ngnix.md)
 
-# Deploy Static website on nginx
+## Deploy Static website on nginx
 
-<a href="https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/static_Website_in_nginx.md"  > # Static website in nginx</a>
+[# Static website in nginx](https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/static_Website_in_nginx.md)
 
-# Deploy Node App on nginx
+## Deploy Node App on nginx
 
-<a href=""  > # Node App website in nginx</a>
+[# Node App website in nginx](https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/Node_App_in_nginx.md)
 
-# SSL with Let's Encrypt
+## SSL with Let's Encrypt
 
-<a href="https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/SSL_With_Encrypt">
-# SSL with Let's Encrypt
-</a>
+[# SSL with Let's Encrypt](https://github.com/AbdulReh-man/Learn-Nigniix/blob/master/SSL_With_Encrypt.md)
